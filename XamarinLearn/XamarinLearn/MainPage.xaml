@@ -4,10 +4,11 @@
              x:Class="XamarinLearn.MainPage">
 
     <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="Hello World!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
-        </Frame>
-        <Label Text="第一个XamarinDemo" FontSize="Title" Padding="30,10,30,10"/>
+        <StackLayout>
+            <Button x:Name="hello" Clicked="hello_Clicked"  Text="Hello World"></Button>
+            <Button x:Name="label" Clicked="label_Clicked" Text="Label and Button"></Button>
+        </StackLayout>
+       
 
     </StackLayout>
 

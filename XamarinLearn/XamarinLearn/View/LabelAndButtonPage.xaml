@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinLearn.View.LabelAndButtonPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <Label x:Name="underlinde" Text="带下划线的label" TextDecorations="Underline"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                <Label Text="删除线的label" TextDecorations="Strikethrough"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                <Label Text="带下划线和删除线的label" TextDecorations="Underline,Strikethrough"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                <Label Text="字号为20的蓝色label" FontSize="20" TextColor="Blue"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            </StackLayout>
+            <StackLayout>
+                <Button Clicked="Button_Clicked" Text="弹出一句话"></Button>
+
+                <Button Clicked="Button_Clicked_1" Text="修改下划线label的文字"></Button>
+            </StackLayout>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
