@@ -7,6 +7,8 @@
         <StackLayout>
             <Button x:Name="hello" Clicked="hello_Clicked"  Text="Hello World"></Button>
             <Button x:Name="label" Clicked="label_Clicked" Text="Label and Button"></Button>
+            <Button x:Name="layout" Clicked="layout_Clicked" Text="Layout"></Button>
+            <Button x:Name="grid" Clicked="grid_Clicked" Text="Grid"></Button>
         </StackLayout>
        
 

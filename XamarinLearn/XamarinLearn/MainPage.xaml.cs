@@ -25,5 +25,16 @@ namespace XamarinLearn
         {
             await Navigation.PushAsync(new LabelAndButtonPage());
         }
+
+        async void layout_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new LayoutPage());
+        }
+
+        async void grid_Clicked(object sender, EventArgs e)
+        {
+
+            await Navigation.PushAsync(new GridPage());
+        }
     }
 }
